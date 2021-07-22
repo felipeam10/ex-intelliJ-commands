@@ -1,0 +1,11 @@
+ALT + 1         = abre e fecha a barra lateral de projetos
+
+ALT+Insert      = abre um pop-up de new class, etc
+
+psvm            = cria o método public static void main(String[] args) {}
+
+ALT+SHIFT+F10   = abre um pop-up de run para executar a classe
+
+sout            = System.out.println();
+
+SHIFT+F10       = executa a classe uma vez que ela já foi executada anteriormente pelo atalho ALT+SHIFT+F10
