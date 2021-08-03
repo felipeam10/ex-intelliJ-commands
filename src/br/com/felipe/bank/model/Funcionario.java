@@ -9,6 +9,12 @@ public class Funcionario {
     private int             matricula;
     private LocalDate       dataNascimento;
 
+    public Funcionario(String name, int matricula, LocalDate dataNascimento) {
+        this.name = name;
+        this.matricula = matricula;
+        this.dataNascimento = dataNascimento;
+    }
+
     public String getName() {
         return name;
     }
@@ -36,9 +42,9 @@ public class Funcionario {
     @Override
     public String toString() {
         return "Funcionario { " +
-                "name='" + name + '\'' +
-                ", matricula=" + matricula +
-                ", dataNascimento=" + dataNascimento +
+                "name= '" + name + '\'' +
+                ", matricula= " + matricula +
+                ", dataNascimento= " + dataNascimento +
                 " } ";
     }
 }

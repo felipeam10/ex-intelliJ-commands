@@ -16,5 +16,10 @@ ALT+SHIFT+Insert= seleciona as linhas no modo coluna (ex: podemos digitar privat
 
 CTRL+N          = pesquisa por classes
 
+CTRL+Y          = deleta a linha selecionada
 
+CTRL+D          = duplica a linha
 
+ALT+SHIFT+Setas = move as linhas para cima e/ou para baixo
+
+CTRL+SHIFT+A    = abre o find action, busca todas as palavaras chaves no intellij
