@@ -23,3 +23,12 @@ CTRL+D          = duplica a linha
 ALT+SHIFT+Setas = move as linhas para cima e/ou para baixo
 
 CTRL+SHIFT+A    = abre o find action, busca todas as palavaras chaves no intellij
+
+ALT+Setas       = movimenta nas abas das classes (setas para direita e esquerda)
+
+CTRL+B          = te posiciona na classe em que a instância está apontada
+
+CTRL+F4         = fecha a aba atual
+
+ALT+SHIFT+X     = fecha todas as abas
+
