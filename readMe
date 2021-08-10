@@ -32,3 +32,10 @@ CTRL+F4         = fecha a aba atual
 
 ALT+SHIFT+X     = fecha todas as abas
 
+F5              = copia a classe
+
+SHIFT+F6        = refactor > rename
+
+CTRL+ALT+S      = abre o settings...
+
+CTRL+ALT+M      = extrai métodos
