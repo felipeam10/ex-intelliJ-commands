@@ -39,3 +39,11 @@ SHIFT+F6        = refactor > rename
 CTRL+ALT+S      = abre o settings...
 
 CTRL+ALT+M      = extrai métodos
+
+SHIFT+SHIFT     = permite buscar qquer coisa no intelliJ
+
+CTRL+E          = mostra as buscas recentes - Recent Files
+
+CTRL+SHIFT+N    = busca apenas arquivos
+
+CTRL+SHIFT+F    = busca textos
