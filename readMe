@@ -14,7 +14,7 @@ F6              = move os itens
 
 ALT+SHIFT+Insert= seleciona as linhas no modo coluna (ex: podemos digitar private para varias linhas simultâneas)
 
-CTRL+N          = pesquisa por classes
+CTRL+N          = pesquisa por classes - se colocar "op:37" vai buscar a classe opcoesPagamento e ir para a linha 37
 
 CTRL+Y          = deleta a linha selecionada
 
@@ -47,3 +47,11 @@ CTRL+E          = mostra as buscas recentes - Recent Files
 CTRL+SHIFT+N    = busca apenas arquivos
 
 CTRL+SHIFT+F    = busca textos
+
+CTRL+F12        = exibe os métodos/estrutura da classe
+
+ALT+F7          = verifica aonde o método está sendo utilizado
+
+CTRL+H          = mostra a hierarquia da classe
+
+ALT+HOME        = podemos navegar pela Navigation Bar utilizando as setas do teclado
