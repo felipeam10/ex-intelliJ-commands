@@ -50,8 +50,16 @@ CTRL+SHIFT+F    = busca textos
 
 CTRL+F12        = exibe os métodos/estrutura da classe
 
-ALT+F7          = verifica aonde o método está sendo utilizado
+ALT+F7/CTRL+F7  = verifica aonde o método está sendo utilizado
 
 CTRL+H          = mostra a hierarquia da classe
 
 ALT+HOME        = podemos navegar pela Navigation Bar utilizando as setas do teclado
+
+ALT+ENTER       = mostra soluções rápidas, ex instanciar um objeto
+
+CTRL+SHIFT+ALT+T= abre um menu com opções de refatoração
+
+CTRL+SHIFT+F6   = migra o tipo do objeto
+
+

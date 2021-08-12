@@ -3,6 +3,7 @@ package br.com.felipe.bank.visualizador;
 import br.com.felipe.bank.io.LeitorPagamento;
 import br.com.felipe.bank.model.Pagamento;
 import br.com.felipe.bank.registrador.RegistroDePagamento;
+import br.com.felipe.bank.servico.ServicoPagamento;
 
 import java.io.IOException;
 import java.nio.file.NoSuchFileException;
@@ -32,7 +33,7 @@ public class OpcoesPagamento {
             int codigoDoArquivo = pedeCodigo();
 
             List<Pagamento> pagamentos = leitor.ler(codigoDoArquivo);
-            RegistroDePagamento registro = new RegistroDePagamento();
+            ServicoPagamento registro = new ServicoPagamento();
             registro.registra(pagamentos);
         } catch (NoSuchFileException | NoSuchElementException e) {
             System.out.println("Arquivo não encontrado");
