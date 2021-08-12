@@ -1,8 +1,7 @@
 package br.com.felipe.bank.visualizador;
 
-import br.com.felipe.bank.io.LeitorPagamento;
+import br.com.felipe.bank.io.LeitorCSV;
 import br.com.felipe.bank.model.Pagamento;
-import br.com.felipe.bank.registrador.RegistroDePagamento;
 import br.com.felipe.bank.servico.ServicoPagamento;
 
 import java.io.IOException;
@@ -24,7 +23,7 @@ public class OpcoesPagamento {
         System.out.println("Informe o código do arquivo que deseja registrar os pagamentos:");
 
 
-        LeitorPagamento leitor = new LeitorPagamento();
+        LeitorCSV leitor = new LeitorCSV();
 
         apresentaArquivosDisponiveis(leitor);
 
@@ -42,7 +41,7 @@ public class OpcoesPagamento {
         }
     }
 
-    private void apresentaArquivosDisponiveis(LeitorPagamento leitor) {
+    private void apresentaArquivosDisponiveis(LeitorCSV leitor) {
         try {
             Iterator<Path> lista = leitor.lista();
             int i = 1;
