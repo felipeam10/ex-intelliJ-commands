@@ -16,6 +16,7 @@ public class LeitorCSV extends Leitor implements LeitorPagamento {
 
     @Override
     public List<Pagamento> ler(int codigo) throws IOException {
+
         String arquivo = devolveArquivo(codigo);
 
         ArrayList<Pagamento> pagamentos = new ArrayList<>();
