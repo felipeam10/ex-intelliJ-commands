@@ -72,4 +72,21 @@ ALT+F9 run to cursor = executa o debug até a linha do cursor
 
 ALT+F8          = evaluate expression podemos fazer chamadas para variáveis ou métodos e será mostrado todos os valores e retornos do contexto buscado
 
+CTRL+/          = comenta a linha
+
+CTRL+ALT+V      = cria uma variavel local ou "new LeitorCSV().var"
+
+CTRL+ALT+F      = cria um campo(field) ou "new LeitorCSV().field"
+
+CTRL+ALT+C      = cria uma constante
+
+CTRL+SHIFT+F12  = maximiza a aba
+
+CTRL+ALT+T      = surround with - conjunto de templates if, while, for, etc
+
+new LeitorXML() + .CTRL+J = abre a lista de templates
+
+CTRL+ALT+B     = vai para a declaração/implementação daquilo que você selecionou
+
+CTRL+LEFT/RIGHT = retrocede ou avança nas seleções
 
