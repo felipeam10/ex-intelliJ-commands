@@ -62,4 +62,14 @@ CTRL+SHIFT+ALT+T= abre um menu com opções de refatoração
 
 CTRL+SHIFT+F6   = migra o tipo do objeto
 
+F7 step-into    = step-into - entra dentro do método
+
+F8 step-over    = step-over -  Esta opção faz com que a execução pule para o próximo passo, sem entrar dentro da implementação
+
+SHIFT+F8 step-out = step-out - sai do método
+
+ALT+F9 run to cursor = executa o debug até a linha do cursor
+
+ALT+F8          = evaluate expression podemos fazer chamadas para variáveis ou métodos e será mostrado todos os valores e retornos do contexto buscado
+
 
