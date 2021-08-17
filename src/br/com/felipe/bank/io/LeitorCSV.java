@@ -2,6 +2,7 @@ package br.com.felipe.bank.io;
 
 import br.com.felipe.bank.model.Pagamento;
 import br.com.felipe.bank.model.Tipo;
+import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.nio.charset.Charset;
@@ -13,6 +14,8 @@ import java.util.Iterator;
 import java.util.List;
 
 public class LeitorCSV extends Leitor implements LeitorPagamento {
+
+    static final Logger logger = Logger.getLogger(LeitorCSV.class);
 
     @Override
     public List<Pagamento> ler(int codigo) throws IOException {

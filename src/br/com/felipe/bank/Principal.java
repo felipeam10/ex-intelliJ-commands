@@ -7,6 +7,7 @@ import br.com.felipe.bank.model.Pagamento;
 import br.com.felipe.bank.model.Tipo;
 import br.com.felipe.bank.registrador.RegistroDePagamento;
 import br.com.felipe.bank.visualizador.OpcoesPagamento;
+import org.apache.log4j.Logger;
 
 import java.io.IOException;
 import java.time.LocalDate;
@@ -14,6 +15,9 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Principal {
+
+    static final Logger logger = Logger.getLogger(Principal.class);
+
     public static void main(String[] args) throws IOException {
 //      new OpcoesPagamento().mensagemDeBoasVindas();
 
@@ -33,6 +37,5 @@ public class Principal {
             System.out.println(pagamento);
 
         }
-
     }
 }

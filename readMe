@@ -90,3 +90,7 @@ CTRL+ALT+B     = vai para a declaração/implementação daquilo que você selec
 
 CTRL+LEFT/RIGHT = retrocede ou avança nas seleções
 
+CTRL+ALT+O      = ajusta os imports
+
+Obs:
+ -> Save as templates: ja salva o template por usuário e ja configura no contexto da linguagem
